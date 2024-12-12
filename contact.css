@@ -1,0 +1,134 @@
+.container6 {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    padding: 4rem;
+    background-color: #eee;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container6 .big-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #d8a270, #be763b);
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-40%, 38%);
+}
+.container6 .big-circle:after {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: #eee;
+    border-radius: 50%;
+    top: calc(50% - 180px);
+    left: calc(50% - 180px);
+}
+.container6 .small-circle {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #d8a270, #be763b);
+    top: 50%;
+    left: 50%;
+    transform: translate(120%, 40%);
+}
+.container6 .small-circle:after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: #eee;
+    border-radius: 50%;
+    top: calc(50% - 110px);
+    left: calc(50% - 110px);
+}
+.form {
+    z-index: 1;
+    width: 100%;
+    max-width: 85%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(53, 22, 1, 0.219);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+}
+.form .contact-form {
+    background-color: #be763b;
+    position: relative;
+}
+.form .contact-form::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #be763b;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+.form .contact-form .icon {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.form .contact-form .icon h1 {
+    color: #fff;
+    padding: 20px 0;
+}
+.form .contact-form .icon a {
+    text-decoration: none;
+    color: #dbbea3;
+    text-transform: uppercase;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s;
+}
+.form .contact-form .icon a:hover {
+    padding-left: 15px;
+    color: #fff;
+}
+.form .contact-form .icon a i {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #fff;
+}
+.form .contact-info {
+    position: relative;
+    padding: 2rem;
+}
+.form .contact-info h1 {
+    color: #944e15;
+    padding: 20px 0;
+}
+.form .contact-info p {
+    color: #944e15;
+    line-height: 7mm;
+    padding-bottom: 20px;
+}
+.form .contact-info .information .info {
+    flex-direction: column;
+    transition: 0.4s;
+}
+.form .contact-info .information .info:hover {
+    transform: scale(1.03);
+}
+.form .contact-info .information .info i {
+    font-size: 26px;
+    color: #944e15;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact Form</title>
+    <link rel="icon" type="image/png" href="dist/images/favicon.png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html">Botanical Creations</a>
+        </div>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon_line"></span>
+        </label>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="nav-link">
+                <a href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-link">
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="gallery">
+        <div class="text3">
+            <h1>CONTACT</h1>
+            <h3>Contact Form.</h3>
+        </div>
+    </div>
+
+    <section class="container6">
+        <span class="big-circle"></span>
+        <span class="small-circle"></span>
+        <div class="form">
+            <div class="contact-info">
+                <h1>Let's get in touch!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Distinctio vitae ea provident eos natus, 
+                    recusandae molestiae ad dicta accusantium id expedita.</p>
+                    <div class="information">
+                        <div class="info">
+                    <i class="fa fa-envelope-o"></i> <p>botanical_creations@gmail.com</p>
+                    </div>
+                    </div>
+                    <div class="information">
+                        <div class="info">
+                    <i class="fa fa-phone"></i> <p> (+63) 9305321995 </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="contact-form">
+                <div class="icon">
+                    <h1>Connect with us:</h1>
+                    <a href="#"><i class="fa fa-youtube-play"></i> Youtube</a>
+                    <a href="#"><i class="fa fa-twitter"></i> Twitter "X"</a>
+                    <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+                </div>
+            </div>
+        </div>
+</section>
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+    
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+
+<script src="dist/js/main.js"></script>
+
+<footer id=footer>
+    <p>&copy;BotanicalCreations</p>
+</footer>
+
+</body>
+</html>

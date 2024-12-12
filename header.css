@@ -1,0 +1,73 @@
+.main-header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    padding: 0 10vw;
+    color: #944e15;
+    z-index: 10;
+    background: rgba(255, 242, 221, 0.719);
+}
+.main-header .logo {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    color: #944e15;
+}
+.main-header a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.main-header .menu-icon {
+    position: relative;
+    padding: 26px 10px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+}
+.main-header .menu-icon_line {
+    display: block;
+    position: relative;
+    background: #944e15;
+    height: 2px;
+    width: 20px;
+    border-radius: 4px;
+}
+.main-header .menu-icon_line::before, .main-header .menu-icon_line::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background: #944e15;
+}
+
+.main-header .menu-btn {
+    display: none;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    background-color: #eee;
+    position: relative;
+    left: 0;
+    clear: bottom;
+    bottom: 0;
+    border-top: 1px solid rgba(214, 187, 143, 0.719);
+}
+#footer p {
+    color: #944e15;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: right;
+    letter-spacing: 1mm;
+}

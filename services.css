@@ -1,0 +1,87 @@
+.gallery {
+    height: 30%;
+    background: url('../dist/images/T\ Aug.png') no-repeat left center;
+    background-size: cover;
+    display: relative;
+    justify-content: left;
+    align-items: center;
+    padding: 6rem 5rem 4rem 5rem;
+    color: #fff;
+}
+.gallery .text3 {
+    top: 0;
+    left: 0;
+    position: relative;
+    text-align: center;
+    background: rgba(92, 56, 10, 0.438);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.gallery .text3 h1 {
+    font-size: 6rem;
+    display: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 10px;
+    border-bottom: 2px solid #fff;
+}
+.gallery .text3 h3 {
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.container3 {
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+.container3 .title .text3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #944e15;
+    font-weight: 400;
+}
+.container2 {
+    top: 0;
+    left: 0;
+    position: relative;
+    padding: 1rem;
+    margin-right: 20px;
+    display: flex;
+}
+.container2 .row2 {
+    width: 100%;
+    margin: 10px;
+}
+.container2 .row2 .inner h1 {
+    color: #944e15;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.container2 .row2 .inner p {
+    line-height: 2rem;
+    margin: 1rem;
+}
+.container2 .row2 .inner ul {
+    padding: 20px;
+}
+.container2 .row2 .inner ul li {
+    margin-left: 5px;
+    padding: 5px;
+    line-height: 6mm;
+}
+.container2 .row2 .inner a {
+    text-decoration: none;
+    color: #944e15;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container2 .row2 .inner b {
+    color: #944e15;
+}
+.container4 {
+    padding-bottom: 10px;
+    column-count: 1;
+    margin: 2%;
+}
